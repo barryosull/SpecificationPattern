@@ -1,0 +1,30 @@
+{
+  "name": "eventsourced/specification",
+  "description": "A snake_case implementation of the Specification Pattern",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Colin Lyons",
+      "email": "colin@craftingdomains.com"
+    },
+    {
+      "name": "Barry O'Sullivan",
+      "email": "barry@craftingdomains.com"
+    },
+    {
+      "name": "Kiran Guragai",
+      "email": "kiran@craftingdomains.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "EventSourced\\": "src/"
+    }
+  },
+  
+  "minimum-stability": "dev"
+}
